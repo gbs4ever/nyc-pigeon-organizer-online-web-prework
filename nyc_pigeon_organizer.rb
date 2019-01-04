@@ -8,11 +8,11 @@ def nyc_pigeon_organizer(data)
          pigeon_list[bird_name] ||= {}
 
          pigeon_list[bird_name][pigeon_attribute] ||= []
-           binding.pry
+      
 
           pigeon_list[bird_name][pigeon_attribute] << key.to_s
 
-        binding.pry
+    
       end
     end
   end
